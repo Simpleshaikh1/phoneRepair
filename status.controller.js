@@ -2,7 +2,7 @@ const router = require("express").Router()
 
 const DB = client.db('phoneRepair');
 
-const DbCollection = DB.createCollection('customers');
+const DbCollection = DB.collection('customers');
 
 let repairStatus = "pending";
 
